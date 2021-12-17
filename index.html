@@ -11,9 +11,129 @@
 </head>
 <body>
     
-    <!-- Html code here -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar w/ text</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  Navbar text with an inline element
+                </span>
+              </div>
+            </div>
+          </nav>
+        <form action="index.php" method="get" autocomplete="off" class="row gx-5 gy-3 mt-3 mb-3 myform">
+            <div class="col-12">
+                <div class="myalert alert alert-success  alert-dismissible fade show" role="alert">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo assumenda tempore dolores, autem ad totam quis voluptatum veritatis aspernatur veniam sit unde nesciunt officia hic dolore similique recusandae eius nobis.
+                    <button type="button" class="btn-close"  data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <label class="form-label" for="search">Qidirish</label>
+                <input type="search" list="programming" class="form-control" >
+
+                <datalist id="programming">
+                    <option value="javascript"></option>
+                    <option value="php"></option>
+                    <option value="nodejs"></option>
+                    <option value="reactjs"></option>
+                    <option value="angularjs"></option>
+                    <option value="python"></option>
+                    <option value="go"></option>
+                    <option value="ruby"></option>
+                    <option value="flutter"></option>
+                </datalist>
+            </div>
+            <div class="col-lg-6 col-12">
+                <h2 class="text-center">Shaxsiy ma'lumotlaringiz</h2>
+                <hr>
+                <label class="form-label" for="name">Ism kiriting:</label>
+                <input id="name"  placeholder="Ism yozing ...." class="form-control" type="text" name="ism" >
+                <br>
+                <label class="form-label" for="myEmail">email kiriting..</label>
+                <input class="form-control" type="email" required>
+
+                <br>
+                <h4>Qanday tillarni bilasiz?</h4>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="en">Ingliz</label>
+                    <input class="form-check-input" name="lang" id="en" type="radio">
+                </div>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label" for="ru">Rus</label>
+                    <input class="form-check-input" name="lang" id="ru" type="radio">
+                </div>
+
+                <label class="form-label d-block" for="color">Rang tanlang</label>
+                <input class=" form-control form-control-color" type="color" name="color" id="color">
+            </div>
+
+            <div class="col-lg-6 col-12">
+                <h2 class="text-center">Qo'shimcha ma'lumotlar</h2>
+                <hr>
+                <label class="form-label" for="birth_date">Tug'ilgan yilingiz</label>
+                <input tabindex="1" id="birth_date" class="form-control" type="date" name="birth_date" >
+                <br>
+                <label class="form-label" for="myPic">Rasmingizni yuklang...</label>
+                <input tabindex="2" class="form-control" type="file" name="myPic" id="myPic">
+                
+                <br>
+                <div class="form-check form-switch">
+                    <label class="form-check-label" for="jsKnow">Javascriptni bilasizmi?</label>
+                    <input tabindex="3" class="form-check-input" type="checkbox" id="jsKnow">
+                </div>
+                <label for="region">Qaysi viloyatda yashaysiz?</label>
+                <select class="form-select " name="region" id="region">
+                    <option disabled selected>--viloyat tanlang--</option>
+                    <option value="1">Toshkent</option>
+                    <option value="2">Xorazm</option>
+                    <option value="3">Qashqadaryo</option>
+                    <option value="4">Farg'ona</option>
+                    <option value="5">Andijon</option>
+                </select>
+            </div>
+           
+            <div class="col-12">
+              <button class="btn btn-info d-inline-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Foydalanish shartlari</button>
+                <button class="btn btn-success">Send</button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur accusamus, ab debitis eius mollitia repellendus omnis illo aliquid in et, nostrum nam? Consequuntur quasi, harum fuga error magni unde!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yo'q</button>
+            <button type="button" class="btn btn-primary">Ha</button>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
-<script src="./js/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.0/umd/popper.min.js" integrity="sha512-PZrlUFhlOigX38TOCMdaYkhiqa/fET/Lztzjn+kdGxefUZanNUfmHv+9M/wSiOHzlcLX/vcCnmvOZSHi5Dqrsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="./js/popper.min.js"></script> -->
 <script src="./js/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
 <script>

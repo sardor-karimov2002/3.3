@@ -1,0 +1,32 @@
+.mycard{
+    background-color: #0B4856;
+    &__img{
+        width: 140px;
+        height: 140px;
+    }
+    &__title{
+        color: #387475ea;
+        font-weight: 700;
+    }
+    &__description{
+        font-style: italic;
+    }
+
+    &__plus{
+        width: 40px;
+        height: 40px;
+        background-color: #F98084;
+        font-weight: 900;
+        font-size: 22px;
+        // line-height: 40px;
+        &:hover{
+            background-color: #79C8C5;
+        }
+
+
+        &:focus{
+            outline: none!important;
+            box-shadow: none!important;
+        }
+    }
+}

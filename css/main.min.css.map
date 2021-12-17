@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGWA,AAAA,IAAI,AAAA,CACA,gBAAgB,CAAE,OAAO,CAC5B,AKbD,AAAA,OAAO,AAAA,CACH,gBAAgB,CAAE,OAAO,CA8B5B,AA7BI,AAAD,YAAM,AAAA,CACF,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CAChB,AACA,AAAD,cAAQ,AAAA,CACJ,KAAK,CAAE,SAAS,CAChB,WAAW,CAAE,GAAG,CACnB,AACA,AAAD,oBAAc,AAAA,CACV,UAAU,CAAE,MAAM,CACrB,AAEA,AAAD,aAAO,AAAA,CACH,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,OAAO,CACzB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CAWlB,AAhBA,AAOG,aAPG,AAOF,MAAM,AAAA,CACH,gBAAgB,CAAE,OAAO,CAC5B,AATJ,AAYG,aAZG,AAYF,MAAM,AAAA,CACH,OAAO,CAAE,IAAI,CAAA,UAAU,CACvB,UAAU,CAAE,IAAI,CAAA,UAAU,CAC7B",
     "sources": [
         "../scss/main.scss",
         "../scss/_fonts.scss",
@@ -10,6 +10,7 @@
         "../scss/all-blocks/_all-blocks.scss",
         "../scss/all-blocks/_container.scss",
         "../scss/all-blocks/_header.scss",
+        "../scss/all-blocks/_card.scss",
         "../scss/all-blocks/_footer.scss"
     ],
     "names": [],
